@@ -18,7 +18,7 @@ function Card(props) {
   </div>
   <div class="flex items-center md:items-start">
     <span class="text-2xl font-medium">The Punisher</span>
-    <span class="font-medium text-sky-500"></span> {props.username}     {/*this the prop that  we can inject here and then in app.jsx */}
+    <span class="font-medium text-sky-500"></span> {props.username}     { /*this the prop that  we can inject here and then in app.jsx */}
     <span class="flex gap-2 font-medium text-gray-600 dark:text-gray-400">
       <span>No. 4</span>
       <span>·</span>
